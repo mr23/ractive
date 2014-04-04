@@ -10,7 +10,7 @@
 
 body {
   font-size: 16px;
-  color: #f5f5f5;
+  color: #e5e5e5;
   background-color: #595d5d;
   line-height: 1.5;
   padding: 2em 1em 2em 1em;
@@ -51,7 +51,7 @@ a:visited {
   color: #729d34; }
 
 a.stealth {
-  color: #353535; }
+  color: #b5b5b5; }
 
 .main:after {
   content: '';
@@ -146,22 +146,22 @@ body.example {
 
 .tab.selected {
   border-bottom: 7px solid #729d34;
-  color: #333; }
+  color: #ccc; }
 
 pre {
   margin: 0 0 1em 0;
   width: 100%;
-  color: #444;
+  color: #55f;
   font-family: 'Source Code Pro', monospace;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 pre.language-javascript {
-  color: #444; }
+  color: #aaa; }
 
 pre .tag {
-  color: #000064; }
+  color: #5050e4; }
 
 pre .attribute {
   color: #5050b4; }
@@ -170,13 +170,13 @@ pre .value {
   color: #729d34; }
 
 pre .class, pre .id {
-  color: #000064; }
+  color: #5050e4; }
 
 pre .string {
   color: #729d34; }
 
 pre .keyword {
-  color: #000064; }
+  color: #5050f4; }
 
 pre .comment {
   color: #aaaaaa; }
@@ -185,7 +185,7 @@ pre.language-javascript .number {
   color: #960000; }
 
 pre .pln {
-  color: #444; }
+  color: #aaa; }
 
 pre .pun {
   color: #888; }
@@ -194,13 +194,13 @@ pre .str {
   color: #729d34; }
 
 pre .kwd {
-  color: #000064; }
+  color: #5050f4; }
 
 pre .typ {
-  color: #000064; }
+  color: #5050f4; }
 
 pre .tag {
-  color: #000064; }
+  color: #5050f4; }
 
 pre .atn {
   color: #5050b4; }
@@ -215,10 +215,10 @@ pre .com {
   color: #aaaaaa; }
 
 pre.lang-js .pun {
-  color: #444; }
+  color: #eee; }
 
 .message {
-  background-color: #f9dddd;
+  background-color: #292c26;
   padding: 1em;
   text-align: center; }
 
@@ -226,7 +226,7 @@ pre {
   white-space: pre;
   font-family: 'Source Code Pro', monospace;
   font-size: 14px;
-  background-color: #f9fcf6;
+  background-color: #292c26;
   display: block;
   padding: 0.5em;
   overflow-x: auto;
@@ -238,7 +238,7 @@ pre {
     font-family: 'Voltaire', 'Arial';
     font-weight: bold;
     margin-bottom: 1em;
-    color: #444; }
+    color: #eee; }
   pre.lang-html:before {
     content: 'html'; }
   pre.lang-js:before {
@@ -246,10 +246,10 @@ pre {
 
 code {
   font-family: 'Source Code Pro', monospace;
-  border: 1px solid #eee;
+  border: 1px solid #222;
   border-radius: 0.2em;
-  background-color: #f9fcf6;
-  color: #444;
+  background-color: #595c56;
+  color: #eee;
   font-weight: normal;
   font-size: 0.8em;
   padding: 0.15em 0.3em;
@@ -265,7 +265,9 @@ pre code {
   padding: 0; }
 
 .prettyprinted {
-  color: #444; }
+  color: #bbb;
+  background-color: #555;
+  }
 
 .prettyprint .pln {
   color: #444444; }
@@ -274,11 +276,11 @@ pre code {
 .prettyprint .str {
   color: #729d34; }
 .prettyprint .kwd {
-  color: #000064; }
+  color: #5050e4; }
 .prettyprint .typ {
-  color: #000064; }
+  color: #5050e4; }
 .prettyprint .tag {
-  color: #000064; }
+  color: #5050e4; }
 .prettyprint .atn {
   color: #5050b4; }
 .prettyprint .atv {
